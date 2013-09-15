@@ -1,7 +1,6 @@
 import sublime, sublime_plugin, re
 
 RE_CHECK_EXPR = '^[a-zA-Z_\x7f-\xff][a-zA-Z0-9_\x7f-\xff]*$';
-SETTINGS_FILE = 'ClassToPath.sublime-settings';
 
 class ClasstopathCommand(sublime_plugin.TextCommand):
 	def run(self, command):
